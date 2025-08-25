@@ -101,6 +101,7 @@ This table explains the various configuration options available in the script, w
 - `em_baseline_type` is only used when `enable_em_baseline = 1`
 - `multi_loc_city` options must correspond to the selected `multi_loc_grid_freq`
 - Multi-location options are only active when `enable_multi_loc = 1`
+- When selecting "dresden" for 50hz location, enable `enable_50_vs_60_comparison`
 
 ### Example Configuration
 
