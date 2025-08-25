@@ -1,4 +1,4 @@
-# USENIX 2026 Paper 175: "GridPrint: Electric Network Frequency Signatures for Chip Geolocation"
+# USENIX 2026 Submission: "GridPrint: Electric Network Frequency Signatures for Chip Geolocation"
 
 ## 1. Introduction
 
