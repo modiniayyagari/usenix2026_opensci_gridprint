@@ -43,8 +43,8 @@ The repository is structured as follows:
 
 ### 1. Inputs
 The script takes two time-synchronized inputs for each experiment:
-* A **ground-truth reference trace** captured from the AC mains using the digital voice recorder (.MP3 file format).
-* A **sensed trace** captured from the experimental FPGA board using the PicoScope 3206D (.csv file format), which can be either an ambient EM signal or an on-board power trace.
+* A **ground-truth reference trace** captured from the AC mains using the digital voice recorder
+* A **sensed trace** captured from the experimental FPGA board using the PicoScope 3206D, which can be either an ambient EM signal or an on-board power trace.
 
 ### 2. Pre-processing
 Both input traces are converted to the .wav format and downsampled to a **1050 Hz sample rate**. This step focuses the analysis on the relevant frequency band (0-500 Hz) while reducing computational overhead.
