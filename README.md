@@ -47,7 +47,7 @@ The script takes two time-synchronized inputs for each experiment:
 * A **sensed trace** captured from the experimental FPGA board using the PicoScope 3206D, which can be either an ambient EM signal or an on-board power trace.
 
 ### 2. Pre-processing
-Both input traces are converted to the .wav format and downsampled to a **1050 Hz sample rate**. This step focuses the analysis on the relevant frequency band (0-500 Hz) while reducing computational overhead.
+Both input traces are downsampled to a **1050 Hz sample rate**. This step focuses the analysis on the relevant frequency band (0-500 Hz) while reducing computational overhead.
 
 ### 3. Spectrogram Generation
 The Short-Time Fourier Transform (STFT) is applied to both pre-processed traces to generate high-resolution **spectrograms**, which visualize the harmonic content of the signals over time.
